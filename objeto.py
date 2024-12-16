@@ -1,4 +1,4 @@
-class objeto:
+class Objeto:
     def __init__(self, nombre, peso, importancia, fraccionable):
         """
         self.nombre = nombre -> Nombre del objeto

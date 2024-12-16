@@ -1,8 +1,8 @@
-from clase_objeto import Objeto
-from clase_mochila import Mochila
-from funcion_greedy import knapsack_fraccional
-from funcion_dinamica import knapsack_01
-from funcion_clima import obtener_clima
+from objeto import Objeto
+from mochila import Mochila
+from fcn_frac import knapsack_fraccional
+from fcn_dp import knapsack_01
+from clima import obtener_clima
 
 def main():
     print("Bienvenido al optimizador de mochila para acampadas.")

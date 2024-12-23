@@ -25,7 +25,7 @@ def main():
             break
         try:
             peso = float(input("Peso del objeto (kg): "))
-            valor = float(input("Valor o importancia del objeto: "))
+            valor = float(input("Valor o importancia del objeto (1 mín. - 10 máx.): "))
             divisible = input("¿El objeto es divisible? (s/n): ").lower() == 's'
             objetos.append(Objeto(nombre, peso, valor, divisible))
         except ValueError:

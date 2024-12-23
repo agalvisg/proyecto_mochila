@@ -28,4 +28,4 @@ def knapsack_01(mochila):
             seleccionados.append(mochila.objetos[i - 1])
             w -= mochila.objetos[i - 1].peso
 
-    return dp[n][capacidad], seleccionados
+    return dp[n][capacidad], seleccionados 

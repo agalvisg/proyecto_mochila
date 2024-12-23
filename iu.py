@@ -84,7 +84,7 @@ class MochilaApp:
 
             obj = Objeto(nombre, peso, valor, divisible)
             self.objetos.append(obj)
-            self.lista_objetos.insert(tk.END, f"{nombre} - Peso: {peso} kg, Valor: {valor}, Divisible: {divisible}")
+            self.lista_objetos.insert(tk.END, f"{nombre} - Peso: {peso} kg, Valor (1-10): {valor}, Divisible: {divisible}")
             self.objeto_nombre.delete(0, tk.END)
             self.objeto_peso.delete(0, tk.END)
             self.objeto_valor.delete(0, tk.END)
